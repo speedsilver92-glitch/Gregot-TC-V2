@@ -1,0 +1,538 @@
+export const translations = {
+  sk: {
+    // Navigation
+    nav_sluzby: 'Služby',
+    nav_onas: 'O nás',
+    nav_certifikaty: 'Certifikáty',
+    nav_kontakt: 'Kontakt',
+    
+    // Header
+    header_subtitle: 'Maxim Nimerovskyy',
+    
+    // Hero
+    hero_badge: 'Profesionálny konzultant',
+    hero_title: 'Finančné, Energetické a',
+    hero_title_highlight: 'Organizačné Poradenstvo',
+    hero_description: 'Poskytujeme komplexné konzultačné služby v oblastiach financií, energetiky a organizácie. Okrem konzultácií ponúkame aj dodávky energetických technológií a medzinárodné obchodné poradenstvo.',
+    hero_cta_contact: 'Kontaktovať',
+    hero_cta_services: 'Naše služby',
+    
+    // Hero cards
+    card_financie: 'Finančné poradenstvo',
+    card_energetika: 'Energetické poradenstvo',
+    card_organizacia: 'Organizačné poradenstvo',
+    card_dodavky: 'Dodávky',
+    
+    // Services
+    services_title: 'Naše Služby',
+    services_subtitle: 'Poskytujeme komplexné riešenia pre vaše podnikatelské potreby',
+    
+    // Financial consulting
+    fin_title: 'Finančné poradenstvo',
+    fin_desc: 'Pomáhame spoločnostiam efektívne riadiť financie, obchodné riziká a strategické rozhodnutia.',
+    fin_items: ['Analýza finančnej situácie', 'Finančné plánovanie a cash-flow', 'AML a Compliance konzultácie'],
+    
+    // Energy consulting
+    eng_title: 'Energetické poradenstvo',
+    eng_desc: 'Pomáhame firmám prijímať informované rozhodnutia v oblasti energetiky.',
+    eng_items: ['Analýza energetických potrieb', 'Fotovoltika a BESS konzultácie', 'Ekonomické posúdenie'],
+    
+    // Organizational consulting
+    org_title: 'Organizačné poradenstvo',
+    org_desc: 'Pomáhame spoločnostiam budovať efektívne procesy, bezpečné obchodné vzťahy a spoľahlivú organizáciu.',
+    org_items: ['Procesná optimalizácia', 'KYC a Due Diligence', 'Riadenie zmien'],
+    
+    // Energy supply
+    sup_title: 'Dodávky energetických technológií',
+    sup_desc: 'Kvalitné energetické technológie od renomovaných svetových výrobcov za konkurencieschopné ceny.',
+    sup_items: ['Solárne káble KBE', 'Fotovoltické panely ZNShine', 'Batériové úložiská CATL/SUNNIC'],
+    
+    // International trade
+    intl_title: 'Medzinárodné obchodné poradenstvo',
+    intl_desc: 'Pomáhame spoločnostiam bezpečne a efektívne realizovať medzinárodný obchod.',
+    intl_items: ['Exportné a importné projekty', 'Incoterms konzultácie', 'Obchodné riziká'],
+    
+    // Combined service
+    comb_title: 'Komplexné Riešenia',
+    comb_desc: 'Kombinované služby konzulting a dodávky podľa vašich špecifických požiadavkov.',
+    comb_cta: 'Požiadať o ponuku',
+    
+    // About
+    about_title: 'O nás',
+    about_p1: 'GREGOR T&C s.r.o. je slovenská poradenská a obchodná spoločnosť zameraná na energetiku, financie, organizačné poradenstvo a medzinárodný obchod.',
+    about_p2: 'Spájame dlhoročné skúsenosti z oblasti finančného riadenia, energetických projektov a medzinárodných obchodných transakcií s praktickým prístupom orientovaným na výsledky. Našim cieľom je pomáhať klientom prijímať informované rozhodnutia, efektívne riadiť obchodné riziká a realizovať projekty s dôrazom na ekonomickú efektívnosť.',
+    about_p3: 'Spolupracujeme s overenými výrobcami a obchodnými partnermi v Európe a Ázii a zabezpečujeme odbornú podporu pri príprave aj realizácii obchodných a investičných projektov.',
+    about_p4: 'Každému klientovi pristupujeme individuálne a navrhujeme riešenia zohľadňujúce jeho obchodné ciele, technické požiadavky a finančné možnosti.',
+    
+    // Why choose us
+    why_title: 'Prečo si vybrať nás?',
+    why_1: 'Individuálny prístup ku každému projektu',
+    why_2: 'Skúsenosti z oblasti financií, energetiky a medzinárodného obchodu',
+    why_3: 'Priame obchodné kontakty s renomovanými zahraničnými výrobcami',
+    why_4: 'Komplexná podpora od analýzy až po realizáciu projektu',
+    why_5: 'Dôraz na transparentnosť, profesionalitu a dlhodobú spoluprácu',
+    
+    // Values
+    values_title: 'Naše hodnoty',
+    values_prof_title: 'Profesionalita',
+    values_prof_desc: 'Každý projekt riešime odborne, zodpovedne a s dôrazom na kvalitu.',
+    values_reli_title: 'Spoľahlivosť',
+    values_reli_desc: 'Budujeme dlhodobé obchodné vzťahy založené na dôvere a korektnej komunikácii.',
+    values_eff_title: 'Efektivita',
+    values_eff_desc: 'Navrhujeme riešenia, ktoré prinášajú reálnu ekonomickú hodnotu.',
+    values_part_title: 'Partnerstvo',
+    values_part_desc: 'Úspech našich klientov považujeme za základ dlhodobej spolupráce.',
+    
+    // Certificates
+    cert_title: 'Certifikáty',
+    cert_subtitle: 'Oficiálne certifikáty a oprávnenia našej spoločnosti',
+    
+    // Contact
+    contact_title: 'Kontakt',
+    contact_subtitle: 'Kontaktujte ma pre profesionálne poradenstvo alebo podmienky dodávok',
+    contact_phone: 'Telefón',
+    contact_email: 'Email',
+    contact_location: 'Lokalita',
+    contact_location_value: 'Slovensko',
+    contact_address: 'Adresa',
+    contact_correspondence: 'Korešpondenčná adresa:',
+    contact_correspondence_value: 'Michalská 9, 811 03 Bratislava',
+    contact_business: 'Adresa podnikania:',
+    contact_business_value: 'Za kasárnou 1, 831 02 Bratislava',
+    contact_map: 'Mapa',
+    contact_map_title: 'Zobraziť na mape',
+    contact_map_link: 'Otvoriť v Google Maps',
+    contact_call: 'Zavolať teraz',
+    
+    // Footer
+    footer_work: 'Pracujeme ako tím samostatných konzultantov',
+    footer_rights: 'Všetky práva vyhradené.',
+    
+    // Back button
+    back: 'Späť',
+    
+    // Language switcher
+    lang_sk: 'SK',
+    lang_en: 'EN',
+    
+    // Detailed pages
+    // Financial page
+    fin_page_title: 'Finančné poradenstvo',
+    fin_page_hero: 'Pomáhame spoločnostiam efektívne riadiť financie, obchodné riziká a strategické rozhodnutia.',
+    fin_page_intro: 'Finančné poradenstvo je určené podnikateľom a spoločnostiam, ktoré pripravujú investície, hľadajú optimálny spôsob financovania alebo potrebujú nezávislé expertné posúdenie finančných procesov a obchodných dokumentov. Naše služby pomáhajú klientom zlepšiť finančné riadenie, identifikovať riziká a pripraviť kvalitné podklady pre obchodné rozhodnutia.',
+    fin_page_services_title: 'Služby',
+    fin_page_service1: 'Analýza finančnej situácie spoločnosti',
+    fin_page_service2: 'Finančné plánovanie a cash-flow konzultácie',
+    fin_page_service3: 'Posúdenie ekonomickej efektívnosti investičných projektov',
+    fin_page_service4: 'Expertné posúdenie obchodných a finančných zmlúv',
+    fin_page_service5: 'Konzultácie v oblasti AML, Compliance a finančného monitoringu',
+    fin_page_service6: 'Posúdenie interných finančných procesov a kontrolných mechanizmov',
+    fin_page_service7: 'Podpora pri komunikácii s bankami, investormi a obchodnými partnermi',
+    fin_page_benefits_title: 'Výhody pre klienta',
+    fin_page_benefit1: 'Lepšie riadenie financií a rizík',
+    fin_page_benefit2: 'Efektívnejšie obchodné rozhodnutia',
+    fin_page_benefit3: 'Vyššia transparentnosť finančných procesov',
+    fin_page_benefit4: 'Praktické odporúčania pre rozvoj podnikania',
+    fin_page_disclaimer_title: 'Upozornenie',
+    fin_page_disclaimer: 'Poskytované služby predstavujú všeobecné podnikateľské a konzultačné poradenstvo. Nejde o investičné poradenstvo, daňové poradenstvo, účtovný audit, právne služby ani inú regulovanú činnosť vykonávanú na základe osobitného oprávnenia. V prípadoch, keď právne predpisy vyžadujú licencovaného odborníka, odporúčame využiť služby príslušne oprávneného poradcu.',
+    fin_page_cta: 'Máte záujem o finančné poradenstvo?',
+    fin_page_cta_btn: 'Kontaktovať nás',
+    
+    // Energy page
+    eng_page_title: 'Energetické poradenstvo',
+    eng_page_hero: 'Pomáhame firmám prijímať informované rozhodnutia v oblasti energetiky.',
+    eng_page_intro: 'Energetické poradenstvo je určené podnikateľom, investorom a spoločnostiam, ktoré plánujú optimalizovať spotrebu energií, pripravujú energetický projekt alebo zvažujú investície do moderných technológií. Klienti sa na nás obracajú pri ekonomickom posudzovaní projektov, výbere vhodných riešení alebo pri komunikácii s obchodnými partnermi a dodávateľmi.',
+    eng_page_service1: 'Analýza energetických potrieb podniku',
+    eng_page_service2: 'Konzultácie pri energetických projektoch',
+    eng_page_service3: 'Posúdenie ekonomickej efektívnosti investícií',
+    eng_page_service4: 'Konzultácie v oblasti fotovoltiky a batériových úložísk (BESS)',
+    eng_page_service5: 'Podpora pri výbere technológií a obchodných partnerov',
+    eng_page_benefit1: 'Lepšie investičné rozhodnutia',
+    eng_page_benefit2: 'Optimalizácia budúcich nákladov',
+    eng_page_benefit3: 'Nezávislé odborné odporúčania',
+    eng_page_benefit4: 'Individuálny prístup ku každému projektu',
+    eng_page_disclaimer: 'Poskytované služby majú charakter všeobecného podnikateľského poradenstva. Spoločnosť neposkytuje energetické audity ani inú licencovanú alebo autorizovanú činnosť podľa osobitných právnych predpisov. Ak klient potrebuje autorizované odborné stanovisko alebo zákonom regulované služby, odporúčame obrátiť sa na príslušne oprávneného odborníka.',
+    eng_page_cta: 'Máte záujem o energetické poradenstvo?',
+    
+    // Organizational page
+    org_page_title: 'Organizačné poradenstvo',
+    org_page_hero: 'Pomáhame spoločnostiam budovať efektívne procesy, bezpečné obchodné vzťahy a spoľahlivú organizáciu.',
+    org_page_intro: 'Organizačné poradenstvo je určené firmám, ktoré chcú zefektívniť interné procesy, nastaviť spoluprácu s obchodnými partnermi alebo znížiť obchodné riziká. Klienti sa na nás obracajú pri rozvoji spoločnosti, optimalizácii organizačnej štruktúry, preverovaní obchodných partnerov alebo nastavovaní interných postupov.',
+    org_page_service1: 'Analýza a optimalizácia firemných procesov',
+    org_page_service2: 'Návrh organizačných a prevádzkových riešení',
+    org_page_service3: 'Konzultácie pri rozvoji podnikania',
+    org_page_service4: 'Nastavenie spolupráce medzi obchodnými partnermi',
+    org_page_service5: 'KYC (Know Your Customer) konzultácie',
+    org_page_service6: 'Analýza a preverenie obchodných partnerov (Due Diligence)',
+    org_page_service7: 'Posúdenie obchodných a prevádzkových rizík',
+    org_page_service8: 'Podpora pri implementácii organizačných zmien',
+    org_page_benefit1: 'Efektívnejšie riadenie spoločnosti',
+    org_page_benefit2: 'Lepšie nastavené interné procesy',
+    org_page_benefit3: 'Zníženie obchodných a prevádzkových rizík',
+    org_page_benefit4: 'Vyššia dôveryhodnosť obchodných partnerov',
+    org_page_benefit5: 'Praktické riešenia orientované na dlhodobý rozvoj',
+    org_page_disclaimer: 'Poskytované služby majú charakter všeobecného podnikateľského poradenstva. KYC, preverovanie obchodných partnerov a due diligence predstavujú analytické a konzultačné služby poskytované na základe verejne dostupných alebo klientom poskytnutých informácií. Spoločnosť neposkytuje právne služby ani inú regulovanú činnosť vyžadujúcu osobitné oprávnenie. Ak klient potrebuje zákonom regulované alebo licencované poradenstvo, odporúčame obrátiť sa na príslušne oprávneného odborníka.',
+    org_page_cta: 'Máte záujem o organizačné poradenstvo?',
+    
+    // International trade page
+    intl_page_title: 'Medzinárodné obchodné poradenstvo',
+    intl_page_hero: 'Pomáhame spoločnostiam bezpečne a efektívne realizovať medzinárodný obchod.',
+    intl_page_intro: 'Medzinárodné obchodné poradenstvo je určené spoločnostiam, ktoré obchodujú so zahraničnými partnermi alebo plánujú vstup na nové trhy. Klienti sa na nás obracajú pri nastavovaní obchodných vzťahov, príprave exportných a importných projektov, identifikácii obchodných rizík alebo pri komunikácii s bankami, logistickými spoločnosťami a obchodnými partnermi.',
+    intl_page_service1: 'Exportné a importné projekty',
+    intl_page_service1_desc: 'Konzultácie pri exportných a importných projektoch.',
+    intl_page_service2: 'Obchodné modely',
+    intl_page_service2_desc: 'Analýza obchodných modelov a dodávateľských reťazcov.',
+    intl_page_service3: 'Incoterms',
+    intl_page_service3_desc: 'Konzultácie k dodacím podmienkam (Incoterms).',
+    intl_page_service4: 'Komunikácia s partnermi',
+    intl_page_service4_desc: 'Podpora pri komunikácii s bankami, logistickými spoločnosťami a obchodnými partnermi.',
+    intl_page_service5: 'Obchodné riziká',
+    intl_page_service5_desc: 'Analýza obchodných rizík a návrh opatrení.',
+    intl_page_service6: 'Preverenie partnerov',
+    intl_page_service6_desc: 'Preverenie obchodných partnerov (Business Due Diligence).',
+    intl_page_service7: 'Obchodná dokumentácia',
+    intl_page_service7_desc: 'Konzultácie v oblasti obchodnej dokumentácie.',
+    intl_page_service8: 'Organizácia transakcií',
+    intl_page_service8_desc: 'Podpora pri organizácii medzinárodných obchodných transakcií.',
+    intl_page_benefit1: 'Bezpečnejšie obchodné vzťahy',
+    intl_page_benefit2: 'Zníženie obchodných a logistických rizík',
+    intl_page_benefit3: 'Efektívnejšia organizácia medzinárodného obchodu',
+    intl_page_benefit4: 'Lepšia pripravenosť na rokovania s obchodnými partnermi',
+    intl_page_benefit5: 'Individuálne riešenia podľa potrieb klienta',
+    intl_page_disclaimer: 'Poskytované služby predstavujú všeobecné podnikateľské a obchodné poradenstvo. Spoločnosť neposkytuje právne služby, colné zastupovanie, daňové poradenstvo ani inú regulovanú činnosť vyžadujúcu osobitné oprávnenie. V prípadoch, keď právne predpisy vyžadujú licencovaného odborníka, odporúčame obrátiť sa na príslušne oprávneného poradcu.',
+    intl_page_cta: 'Máte záujem o medzinárodné obchodné poradenstvo?',
+    
+    // Supply page
+    sup_page_title: 'Dodávky energetických technológií',
+    sup_page_hero: 'Zabezpečujeme priame dodávky overených technologických riešení od popredných svetových výrobcov.',
+    sup_page_intro: 'Na základe dlhodobých obchodných vzťahov sprostredkúvame a zabezpečujeme dodávky kvalitných energetických technológií pre priemyselné, komerčné aj developerské projekty. Klientom poskytujeme technické a obchodné konzultácie počas celého procesu – od výberu riešenia až po realizáciu dodávky.',
+    sup_page_kbe_title: 'Solárne káble KBE',
+    sup_page_kbe_badge: 'Solárne káble',
+    sup_page_kbe_desc: 'Spoľahlivé káblové riešenia pre fotovoltické elektrárne.',
+    sup_page_kbe_text: 'Spoločnosť KBE Elektrotechnik GmbH (Nemecko) patrí medzi najuznávanejších európskych výrobcov solárnych káblov. Produkty KBE sú známe vysokou kvalitou spracovania, dlhou životnosťou a spoľahlivosťou aj v náročných klimatických podmienkach.',
+    sup_page_kbe_text2: 'Vďaka priamym obchodným kontaktom zabezpečujeme priame dodávky od výrobcu, konkurencieschopné obchodné podmienky a odbornú podporu pri realizácii projektov.',
+    sup_page_kbe_offer_title: 'Ponúkame',
+    sup_page_kbe_offer1: 'Solárne káble KBE pre FV systémy',
+    sup_page_kbe_offer2: 'Dodávky pre veľké aj menšie projekty',
+    sup_page_kbe_offer3: 'Technické a obchodné konzultácie',
+    sup_page_kbe_offer4: 'Individuálne cenové ponuky',
+    sup_page_znshin_title: 'Fotovoltické panely ZNShine Solar',
+    sup_page_znshin_badge: 'Fotovoltické panely',
+    sup_page_znshin_desc: 'Vysokovýkonné fotovoltické panely od globálne etablovaného výrobcu.',
+    sup_page_znshin_text: 'ZNShine Solar patrí medzi významných svetových výrobcov fotovoltických panelov s dlhoročnými skúsenosťami a dodávkami do desiatok krajín. Spoločnosť je známa dôrazom na kvalitu výroby, moderné technológie a spoľahlivosť svojich produktov.',
+    sup_page_znshin_text2: 'Spolupracujeme priamo s výrobcom, čo umožňuje zabezpečiť priaznivé obchodné podmienky, technickú podporu a dodávky podľa požiadaviek zákazníka.',
+    sup_page_znshin_offer1: 'Monokryštalické fotovoltické panely',
+    sup_page_znshin_offer2: 'Dodávky pre komerčné a priemyselné projekty',
+    sup_page_znshin_offer3: 'Technické konzultácie',
+    sup_page_znshin_offer4: 'Individuálne obchodné riešenia',
+    sup_page_catl_title: 'Batériové úložiská CATL – SUNNIC',
+    sup_page_catl_badge: 'Batériové úložiská',
+    sup_page_catl_desc: 'Moderné batériové systémy pre energetické projekty novej generácie.',
+    sup_page_catl_text: 'Ponúkame batériové úložiská založené na technológiách CATL, svetového lídra vo výrobe batériových článkov, prostredníctvom riešení značky SUNNIC, ktorá dodáva komplexné BESS systémy pre komerčné a priemyselné využitie.',
+    sup_page_catl_text2: 'Vďaka priamym obchodným kontaktom zabezpečujeme priame dodávky, technické konzultácie a podporu pri príprave projektov vrátane ekonomického posúdenia investície.',
+    sup_page_catl_offer1: 'Kontajnerové BESS riešenia',
+    sup_page_catl_offer2: 'Priemyselné batériové úložiská',
+    sup_page_catl_offer3: 'Technické a ekonomické konzultácie',
+    sup_page_catl_offer4: 'Podporu pri návrhu riešenia a výbere konfigurácie',
+    sup_page_advantages_title: 'Výhody spolupráce',
+    sup_page_adv1: 'Priame obchodné kontakty s výrobcami',
+    sup_page_adv2: 'Overení globálni partneri',
+    sup_page_adv3: 'Individuálne obchodné podmienky',
+    sup_page_adv4: 'Technická aj obchodná podpora',
+    sup_page_adv5: 'Dodávky pre projekty rôzneho rozsahu',
+    sup_page_adv6: 'Komplexné poradenstvo od návrhu až po realizáciu',
+    sup_page_cta: 'Máte záujem o dodávky energetických technológií?',
+    
+    // Certificate page
+    cert_page_title: 'KBE Elektrotechnik GmbH',
+    cert_page_address: 'Symeonstraße 8 • 12279 Berlin • GERMANY',
+    cert_page_phone: 'Tel.: +49 (0)30 25 208-100 • Fax: +49 (0)30 25 208-140',
+    cert_page_email: 'info@kbe-elektrotechnik.com • www.kbe-elektrotechnik.com',
+    cert_page_berlin: 'BERLIN',
+    cert_page_cert_title: 'Authorized Distributor Certificate',
+    cert_page_company_text: 'The KBE Elektrotechnik GmbH hereby confirms for year 2026 that the company:',
+    cert_page_distributor_text: 'is an authorized and official distributor of',
+    cert_page_in_slovakia: 'in Slovakia.',
+    cert_page_valid: 'This certificate is valid for the',
+    cert_page_year: 'year 2026',
+    cert_page_product: 'and the following KBE product range:',
+    cert_page_product_detail: 'KBE PV-cables/solar cables according to EN 50618',
+    cert_page_date: 'Berlin, 23rd July 2026',
+    cert_page_sales: 'Mr. Maximilian Pätsch',
+    cert_page_sales_title: 'Sales Manager',
+    cert_page_stamp1: 'KBE Elektrotechnik GmbH',
+    cert_page_stamp2: 'Symeonstraße 8',
+    cert_page_stamp3: '12279 BERLIN',
+    cert_page_tagline: 'power in wire and cables',
+    cert_page_page: 'Page 1 of 1',
+  },
+  en: {
+    // Navigation
+    nav_sluzby: 'Services',
+    nav_onas: 'About Us',
+    nav_certifikaty: 'Certificates',
+    nav_kontakt: 'Contact',
+    
+    // Header
+    header_subtitle: 'Maxim Nimerovskyy',
+    
+    // Hero
+    hero_badge: 'Professional Consultant',
+    hero_title: 'Financial, Energy and',
+    hero_title_highlight: 'Organisational Consulting',
+    hero_description: 'We provide comprehensive consulting services in the fields of finance, energy, and organization. In addition to consulting, we also offer supplies of energy technologies and international trade consulting.',
+    hero_cta_contact: 'Contact',
+    hero_cta_services: 'Our Services',
+    
+    // Hero cards
+    card_financie: 'Financial Consulting',
+    card_energetika: 'Energy Consulting',
+    card_organizacia: 'Organisational Consulting',
+    card_dodavky: 'Supplies',
+    
+    // Services
+    services_title: 'Our Services',
+    services_subtitle: 'We provide comprehensive solutions for your business needs',
+    
+    // Financial consulting
+    fin_title: 'Financial Consulting',
+    fin_desc: 'We help companies effectively manage finances, business risks, and strategic decisions.',
+    fin_items: ['Financial situation analysis', 'Financial planning and cash flow', 'AML and Compliance consulting'],
+    
+    // Energy consulting
+    eng_title: 'Energy Consulting',
+    eng_desc: 'We help companies make informed decisions in the field of energy.',
+    eng_items: ['Energy needs analysis', 'Photovoltaics and BESS consulting', 'Economic assessment'],
+    
+    // Organizational consulting
+    org_title: 'Organisational Consulting',
+    org_desc: 'We help companies build efficient processes, secure business relationships, and reliable organization.',
+    org_items: ['Process optimization', 'KYC and Due Diligence', 'Change management'],
+    
+    // Energy supply
+    sup_title: 'Energy Technology Supplies',
+    sup_desc: 'Quality energy technologies from renowned world manufacturers at competitive prices.',
+    sup_items: ['KBE Solar Cables', 'ZNShine PV Panels', 'CATL/SUNNIC Battery Storage'],
+    
+    // International trade
+    intl_title: 'International Trade Consulting',
+    intl_desc: 'We help companies safely and effectively conduct international trade.',
+    intl_items: ['Export and import projects', 'Incoterms consulting', 'Business risks'],
+    
+    // Combined service
+    comb_title: 'Comprehensive Solutions',
+    comb_desc: 'Combined consulting and supply services according to your specific requirements.',
+    comb_cta: 'Request a Quote',
+    
+    // About
+    about_title: 'About Us',
+    about_p1: 'GREGOR T&C s.r.o. is a Slovak consulting and trading company focused on energy, finance, organisational consulting, and international trade.',
+    about_p2: 'We combine years of experience in financial management, energy projects, and international business transactions with a practical, results-oriented approach. Our goal is to help clients make informed decisions, effectively manage business risks, and execute projects with a focus on economic efficiency.',
+    about_p3: 'We cooperate with verified manufacturers and business partners in Europe and Asia, and we provide expert support in the preparation and execution of business and investment projects.',
+    about_p4: 'We approach each client individually and propose solutions that take into account their business goals, technical requirements, and financial capabilities.',
+    
+    // Why choose us
+    why_title: 'Why Choose Us?',
+    why_1: 'Individual approach to every project',
+    why_2: 'Experience in finance, energy, and international trade',
+    why_3: 'Direct business contacts with renowned foreign manufacturers',
+    why_4: 'Comprehensive support from analysis to project execution',
+    why_5: 'Focus on transparency, professionalism, and long-term cooperation',
+    
+    // Values
+    values_title: 'Our Values',
+    values_prof_title: 'Professionalism',
+    values_prof_desc: 'We solve every project professionally, responsibly, and with a focus on quality.',
+    values_reli_title: 'Reliability',
+    values_reli_desc: 'We build long-term business relationships based on trust and correct communication.',
+    values_eff_title: 'Efficiency',
+    values_eff_desc: 'We design solutions that bring real economic value.',
+    values_part_title: 'Partnership',
+    values_part_desc: 'We consider the success of our clients as the foundation of long-term cooperation.',
+    
+    // Certificates
+    cert_title: 'Certificates',
+    cert_subtitle: 'Official certificates and authorizations of our company',
+    
+    // Contact
+    contact_title: 'Contact',
+    contact_subtitle: 'Contact me for professional consulting or supply conditions',
+    contact_phone: 'Phone',
+    contact_email: 'Email',
+    contact_location: 'Location',
+    contact_location_value: 'Slovakia',
+    contact_address: 'Address',
+    contact_correspondence: 'Correspondence address:',
+    contact_correspondence_value: 'Michalská 9, 811 03 Bratislava',
+    contact_business: 'Business address:',
+    contact_business_value: 'Za kasárnou 1, 831 02 Bratislava',
+    contact_map: 'Map',
+    contact_map_title: 'View on map',
+    contact_map_link: 'Open in Google Maps',
+    contact_call: 'Call Now',
+    
+    // Footer
+    footer_work: 'We work as a team of independent consultants',
+    footer_rights: 'All rights reserved.',
+    
+    // Back button
+    back: 'Back',
+    
+    // Language switcher
+    lang_sk: 'SK',
+    lang_en: 'EN',
+    
+    // Detailed pages
+    // Financial page
+    fin_page_title: 'Financial Consulting',
+    fin_page_hero: 'We help companies effectively manage finances, business risks, and strategic decisions.',
+    fin_page_intro: 'Financial consulting is intended for entrepreneurs and companies preparing investments, looking for optimal financing methods, or needing independent expert assessment of financial processes and business documents. Our services help clients improve financial management, identify risks, and prepare quality materials for business decisions.',
+    fin_page_services_title: 'Services',
+    fin_page_service1: 'Financial situation analysis of the company',
+    fin_page_service2: 'Financial planning and cash flow consulting',
+    fin_page_service3: 'Assessment of economic efficiency of investment projects',
+    fin_page_service4: 'Expert assessment of business and financial contracts',
+    fin_page_service5: 'Consulting in AML, Compliance, and financial monitoring',
+    fin_page_service6: 'Assessment of internal financial processes and control mechanisms',
+    fin_page_service7: 'Support in communication with banks, investors, and business partners',
+    fin_page_benefits_title: 'Benefits for the client',
+    fin_page_benefit1: 'Better financial and risk management',
+    fin_page_benefit2: 'More efficient business decisions',
+    fin_page_benefit3: 'Higher transparency of financial processes',
+    fin_page_benefit4: 'Practical recommendations for business development',
+    fin_page_disclaimer_title: 'Disclaimer',
+    fin_page_disclaimer: 'The services provided represent general business and consulting advisory. This is not investment consulting, tax consulting, accounting audit, legal services, or any other regulated activity performed on the basis of special authorization. In cases where legal regulations require a licensed professional, we recommend using the services of an appropriately authorized advisor.',
+    fin_page_cta: 'Interested in financial consulting?',
+    fin_page_cta_btn: 'Contact Us',
+    
+    // Energy page
+    eng_page_title: 'Energy Consulting',
+    eng_page_hero: 'We help companies make informed decisions in the field of energy.',
+    eng_page_intro: 'Energy consulting is intended for entrepreneurs, investors, and companies planning to optimize energy consumption, preparing an energy project, or considering investments in modern technologies. Clients turn to us for economic assessment of projects, selection of suitable solutions, or communication with business partners and suppliers.',
+    eng_page_service1: 'Analysis of enterprise energy needs',
+    eng_page_service2: 'Consulting on energy projects',
+    eng_page_service3: 'Assessment of economic efficiency of investments',
+    eng_page_service4: 'Consulting in photovoltaics and battery storage (BESS)',
+    eng_page_service5: 'Support in selecting technologies and business partners',
+    eng_page_benefit1: 'Better investment decisions',
+    eng_page_benefit2: 'Optimization of future costs',
+    eng_page_benefit3: 'Independent expert recommendations',
+    eng_page_benefit4: 'Individual approach to every project',
+    eng_page_disclaimer: 'The services provided have the character of general business consulting. The company does not provide energy audits or any other licensed or authorized activity according to special legal regulations. If a client needs an authorized expert opinion or legally regulated services, we recommend turning to an appropriately authorized expert.',
+    eng_page_cta: 'Interested in energy consulting?',
+    
+    // Organizational page
+    org_page_title: 'Organisational Consulting',
+    org_page_hero: 'We help companies build efficient processes, secure business relationships, and reliable organization.',
+    org_page_intro: 'Organisational consulting is intended for companies that want to streamline internal processes, set up cooperation with business partners, or reduce business risks. Clients turn to us for company development, optimization of organisational structure, verification of business partners, or setting up internal procedures.',
+    org_page_service1: 'Analysis and optimization of company processes',
+    org_page_service2: 'Design of organisational and operational solutions',
+    org_page_service3: 'Consulting on business development',
+    org_page_service4: 'Setting up cooperation between business partners',
+    org_page_service5: 'KYC (Know Your Customer) consulting',
+    org_page_service6: 'Analysis and verification of business partners (Due Diligence)',
+    org_page_service7: 'Assessment of business and operational risks',
+    org_page_service8: 'Support in implementing organisational changes',
+    org_page_benefit1: 'More efficient company management',
+    org_page_benefit2: 'Better set up internal processes',
+    org_page_benefit3: 'Reduction of business and operational risks',
+    org_page_benefit4: 'Higher reliability of business partners',
+    org_page_benefit5: 'Practical solutions oriented on long-term development',
+    org_page_disclaimer: 'The services provided have the character of general business consulting. KYC, verification of business partners, and due diligence represent analytical and consulting services provided on the basis of publicly available or client-provided information. The company does not provide legal services or any other regulated activity requiring special authorization. If a client needs legally regulated or licensed consulting, we recommend turning to an appropriately authorized expert.',
+    org_page_cta: 'Interested in organisational consulting?',
+    
+    // International trade page
+    intl_page_title: 'International Trade Consulting',
+    intl_page_hero: 'We help companies safely and effectively conduct international trade.',
+    intl_page_intro: 'International trade consulting is intended for companies that trade with foreign partners or plan to enter new markets. Clients turn to us for setting up business relationships, preparing export and import projects, identifying business risks, or communicating with banks, logistics companies, and business partners.',
+    intl_page_service1: 'Export and import projects',
+    intl_page_service1_desc: 'Consulting on export and import projects.',
+    intl_page_service2: 'Business models',
+    intl_page_service2_desc: 'Analysis of business models and supply chains.',
+    intl_page_service3: 'Incoterms',
+    intl_page_service3_desc: 'Consulting on delivery terms (Incoterms).',
+    intl_page_service4: 'Communication with partners',
+    intl_page_service4_desc: 'Support in communication with banks, logistics companies, and business partners.',
+    intl_page_service5: 'Business risks',
+    intl_page_service5_desc: 'Analysis of business risks and proposal of measures.',
+    intl_page_service6: 'Partner verification',
+    intl_page_service6_desc: 'Verification of business partners (Business Due Diligence).',
+    intl_page_service7: 'Business documentation',
+    intl_page_service7_desc: 'Consulting in the field of business documentation.',
+    intl_page_service8: 'Transaction organization',
+    intl_page_service8_desc: 'Support in organizing international business transactions.',
+    intl_page_benefit1: 'Safer business relationships',
+    intl_page_benefit2: 'Reduction of business and logistics risks',
+    intl_page_benefit3: 'More efficient organization of international trade',
+    intl_page_benefit4: 'Better preparedness for negotiations with business partners',
+    intl_page_benefit5: 'Individual solutions according to client needs',
+    intl_page_disclaimer: 'The services provided represent general business and trade consulting. The company does not provide legal services, customs representation, tax consulting, or any other regulated activity requiring special authorization. In cases where legal regulations require a licensed professional, we recommend turning to an appropriately authorized advisor.',
+    intl_page_cta: 'Interested in international trade consulting?',
+    
+    // Supply page
+    sup_page_title: 'Energy Technology Supplies',
+    sup_page_hero: 'We ensure direct supplies of verified technological solutions from leading world manufacturers.',
+    sup_page_intro: 'Based on long-term business relationships, we mediate and ensure supplies of quality energy technologies for industrial, commercial, and developer projects. We provide clients with technical and business consulting throughout the entire process – from solution selection to delivery execution.',
+    sup_page_kbe_title: 'KBE Solar Cables',
+    sup_page_kbe_badge: 'Solar Cables',
+    sup_page_kbe_desc: 'Reliable cable solutions for photovoltaic power plants.',
+    sup_page_kbe_text: 'KBE Elektrotechnik GmbH (Germany) is one of the most recognized European manufacturers of solar cables. KBE products are known for high processing quality, long lifespan, and reliability even in challenging climatic conditions.',
+    sup_page_kbe_text2: 'Thanks to direct business contacts, we ensure direct supplies from the manufacturer, competitive business conditions, and expert support during project execution.',
+    sup_page_kbe_offer_title: 'We Offer',
+    sup_page_kbe_offer1: 'KBE solar cables for PV systems',
+    sup_page_kbe_offer2: 'Supplies for large and small projects',
+    sup_page_kbe_offer3: 'Technical and business consulting',
+    sup_page_kbe_offer4: 'Individual price offers',
+    sup_page_znshin_title: 'ZNShine Solar PV Panels',
+    sup_page_znshin_badge: 'PV Panels',
+    sup_page_znshin_desc: 'High-performance photovoltaic panels from a globally established manufacturer.',
+    sup_page_znshin_text: 'ZNShine Solar is among the significant world manufacturers of photovoltaic panels with years of experience and deliveries to dozens of countries. The company is known for its focus on manufacturing quality, modern technologies, and reliability of its products.',
+    sup_page_znshin_text2: 'We cooperate directly with the manufacturer, which allows us to ensure favorable business conditions, technical support, and deliveries according to customer requirements.',
+    sup_page_znshin_offer1: 'Monocrystalline photovoltaic panels',
+    sup_page_znshin_offer2: 'Supplies for commercial and industrial projects',
+    sup_page_znshin_offer3: 'Technical consulting',
+    sup_page_znshin_offer4: 'Individual business solutions',
+    sup_page_catl_title: 'CATL – SUNNIC Battery Storage',
+    sup_page_catl_badge: 'Battery Storage',
+    sup_page_catl_desc: 'Modern battery systems for new-generation energy projects.',
+    sup_page_catl_text: 'We offer battery storage based on CATL technologies, the world leader in battery cell production, through SUNNIC brand solutions, which supplies comprehensive BESS systems for commercial and industrial use.',
+    sup_page_catl_text2: 'Thanks to direct business contacts, we ensure direct supplies, technical consulting, and support in project preparation including economic investment assessment.',
+    sup_page_catl_offer1: 'Container BESS solutions',
+    sup_page_catl_offer2: 'Industrial battery storage',
+    sup_page_catl_offer3: 'Technical and economic consulting',
+    sup_page_catl_offer4: 'Support in solution design and configuration selection',
+    sup_page_advantages_title: 'Cooperation Benefits',
+    sup_page_adv1: 'Direct business contacts with manufacturers',
+    sup_page_adv2: 'Verified global partners',
+    sup_page_adv3: 'Individual business conditions',
+    sup_page_adv4: 'Technical and business support',
+    sup_page_adv5: 'Supplies for projects of various scales',
+    sup_page_adv6: 'Comprehensive consulting from design to execution',
+    sup_page_cta: 'Interested in energy technology supplies?',
+    
+    // Certificate page
+    cert_page_title: 'KBE Elektrotechnik GmbH',
+    cert_page_address: 'Symeonstraße 8 • 12279 Berlin • GERMANY',
+    cert_page_phone: 'Tel.: +49 (0)30 25 208-100 • Fax: +49 (0)30 25 208-140',
+    cert_page_email: 'info@kbe-elektrotechnik.com • www.kbe-elektrotechnik.com',
+    cert_page_berlin: 'BERLIN',
+    cert_page_cert_title: 'Authorized Distributor Certificate',
+    cert_page_company_text: 'The KBE Elektrotechnik GmbH hereby confirms for year 2026 that the company:',
+    cert_page_distributor_text: 'is an authorized and official distributor of',
+    cert_page_in_slovakia: 'in Slovakia.',
+    cert_page_valid: 'This certificate is valid for the',
+    cert_page_year: 'year 2026',
+    cert_page_product: 'and the following KBE product range:',
+    cert_page_product_detail: 'KBE PV-cables/solar cables according to EN 50618',
+    cert_page_date: 'Berlin, 23rd July 2026',
+    cert_page_sales: 'Mr. Maximilian Pätsch',
+    cert_page_sales_title: 'Sales Manager',
+    cert_page_stamp1: 'KBE Elektrotechnik GmbH',
+    cert_page_stamp2: 'Symeonstraße 8',
+    cert_page_stamp3: '12279 BERLIN',
+    cert_page_tagline: 'power in wire and cables',
+    cert_page_page: 'Page 1 of 1',
+  },
+};
+
+export type Language = 'sk' | 'en';
