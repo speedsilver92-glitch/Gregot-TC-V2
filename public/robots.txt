@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gregor-tc.com/sitemap.xml
